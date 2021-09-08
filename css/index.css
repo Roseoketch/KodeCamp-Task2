@@ -53,6 +53,15 @@ html{
 #about>h4>p{
     margin: 360px 88px 5% 20%;
     padding-left: 20%;
+    line-height: 30px;
+    
+
+}
+
+#about>h4{
+    line-height: 30px;
+    font-family: 'Playfair Display', serif;
+
 }
 
 #about>h4>span{
@@ -114,6 +123,8 @@ article>div>p{
     margin-top: 10%;
     margin-right: 15%;
     margin-left: 5%;
+
+
 }
 
 article>div>p>span{
