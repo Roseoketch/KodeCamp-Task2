@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
 
 
 
@@ -26,7 +27,7 @@ html{
     margin: 450px 50px 124px 20%;
     font-family: 'Playfair Display', serif;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: bold;
 }
 
@@ -54,6 +55,10 @@ html{
     padding-left: 20%;
 }
 
+#about>h4>span{
+    font-weight: bold;
+    font-size: 30px;
+}
 section>img{ 
     margin-right:-4px ;
     margin-bottom: -5px;
@@ -109,6 +114,12 @@ article>div>p{
     margin-top: 10%;
     margin-right: 15%;
     margin-left: 5%;
+}
+
+article>div>p>span{
+    color: #E4B7C4;
+    font-family: 'Allison', cursive;
+    font-size: 40px;
 }
 
 #collection{
@@ -191,6 +202,8 @@ footer>div>h3{
     font-weight: bold;
     font-style: italic;
     font-size: 25px;
+    border-top: 6px solid #E4B7C4;
+    padding-top: 3%;
 }
 
 footer>div>input{
