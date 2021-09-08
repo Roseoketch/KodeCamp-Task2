@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+
+
+
 html{
     margin-top: auto;
-}
-
-#banner>img{
-    text-align: center;
 }
 
 #banner{
@@ -13,9 +14,20 @@ html{
     height: 600px;
 }
 
+/* nav{
+    height: 20px;
+    color: white;
+    margin-top: 2%;
+} */
+
+
 #banner>h1 {
     color: #FFFFFF;
     margin: 450px 50px 124px 20%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #banner>p{
@@ -58,6 +70,10 @@ section>img{
 
 #prods>h3{
     padding-top: 5%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #prods>input{
@@ -65,7 +81,7 @@ section>img{
     height: 8%;
     border-radius: 20px;
     padding: 5px;
-    
+    border-style: none;
 }
 
 #prods>button{
@@ -76,7 +92,125 @@ section>img{
     font-weight: bold;
 }
 
-article>img{
-    height: 200px;
-    margin-top: 22px;
+article>div{
+    display: flex;
 }
+article>div>img{
+    height: 300px;
+    width: 200px;
+    margin-top: 5%;
+    flex: 1;
+    margin-left:10% ;
+
+}
+
+
+article>div>p{
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-left: 5%;
+}
+
+#collection{
+    background-color: #D9B1B3;
+    padding-left: 10%;
+}
+
+#collection>h3{
+    text-align: center;
+    padding-top: 2%;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#collection>img{
+    padding: 7px;
+    padding-bottom: 2%;
+}
+
+#collection>span{
+    color: white;
+    text-align: center;
+    margin-left: 49%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    size: 24dp;
+}
+
+#product{
+    display: flex;
+    padding-top: 3%;
+}
+
+#product>img:nth-child(1){
+    margin-left: 10.3%;
+    /* padding-right: 3%; */
+
+}
+
+#product>img{
+    padding-right: 3%;
+}
+
+#product>div{
+    margin-top: 3%;
+}
+#product>div>button{
+    background-color: black;
+    border-radius: 20px;
+    color: white ;
+    padding: 5px 20px 5px 20px;
+    border-style: none;
+}
+
+footer{
+    display: flex;
+    margin-top: 3%;
+}
+
+footer>div{
+    padding-left: 3%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+footer>div>img{
+    height: 25px;
+    width: 25px;
+    padding-right: 2%;
+    margin-top: 5%;
+
+}
+
+
+footer>div>h3{
+    padding-bottom: 5%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+footer>div>input{
+    padding: 10px;
+    padding-right: 10px;
+}
+
+footer>div>p{
+    margin-top: 5%;
+
+}
+
+footer>div>button{
+    margin-top: 5%;
+    padding: 8px 15px 8px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    border-style: none;
+}
+
+
